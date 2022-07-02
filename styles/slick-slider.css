@@ -1,0 +1,35 @@
+.slick-slider,
+.slick-slider .slick-list,
+.slick-slider .slick-track,
+.slick-slider .slick-slide {
+    height: 100%;
+}
+
+.slick-slider .slick-slide div {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.slick-slider .slick-slide img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.slick-slider .slick-dots {
+    bottom: 2vh;
+}
+
+.slick-slider .slick-dots>li {
+    margin: 0;
+}
+
+.slick-slider .slick-dots button:before {
+    color: white;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+    color: white;
+}
